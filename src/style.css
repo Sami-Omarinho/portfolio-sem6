@@ -1,1 +1,21 @@
 @import "tailwindcss";
+@import 'primeicons/primeicons.css';
+
+@font-face {
+  font-family: 'Exo-Regular';
+  src: url('../src/assets/fonts/Exo2-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --color-primary: #1F2235;
+  --color-secondary: #ffc300;
+  --color-tertiary: #FC2B43;
+  --font-exo: 'Exo-Regular';
+}
+
+.h1_title {
+  -webkit-text-stroke: 0.05rem #ffc300;
+  -webkit-text-fill-color: transparent;
+}
